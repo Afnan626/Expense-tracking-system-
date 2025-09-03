@@ -48,12 +48,36 @@ str2++
 
 //they auto convert string into number
 //console.log(null <1)
-console.log(null ==1)
-console.log(undefined <= 1)
-console.log(undefined != 1)
+//console.log(null ==1)
+//console.log(undefined <= 1)
+//console.log(undefined != 1)
 //strict check
 //console.log(2===1)
+/* values can be access into two types 
+#premitive
+string.number,boolean,bigint,symbol,undefined,null
+#non premitive or access by reference
+arrys,objects,functions
+js is dynamic type langauges
+*/
+//arrys
 
+let myarry = ["alikhan","abbas","mehmood"];
+console.log(myarry)
 
+//objects
+
+let myobj={
+    name : "afnan",
+    age  : 21,
+    class : 15,
+}
+console.log(myobj)
+ //functions
+
+let myfn = function () {
+  console.log("Hello from myfn");
+};
+console.log(myfn)
 
 
