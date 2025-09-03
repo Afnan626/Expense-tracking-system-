@@ -72,12 +72,27 @@ let myobj={
     age  : 21,
     class : 15,
 }
-console.log(myobj)
+//console.log(myobj)
  //functions
 
 let myfn = function () {
   console.log("Hello from myfn");
 };
-console.log(myfn)
-
-
+//console.log(myfn)
+//premitive(stack)
+//non-premitive(heap)
+//stack
+let myname= "AFNAN KHALIL"
+ let secondname= myname
+secondname = "afnan"
+console.log(myname)
+console.log(secondname)
+//heap
+let user = {
+    email : "afc$gmail",
+    phone : 74747,
+}
+let userone = user
+userone.email="aaaa#gmail"
+console.log(user)
+console.log(userone)
