@@ -16,25 +16,44 @@ null= standardlone val
 undefined= 
 symbol = unique
 */
-console.log(3+3);
-console.table([accountid,accountemail,accountpassword,address,state]);
+//console.log(3+3);
+//console.table([accountid,accountemail,accountpassword,address,state]);
 let valueinnumber = Number(accountid)
-console.log(typeof valueinnumber);
-console.log(valueinnumber);
+//console.log(typeof valueinnumber);
+//console.log(valueinnumber);
 let isloggedin = "1";
 let booleaninnumber = Boolean(isloggedin);
-console.log(booleaninnumber )
+//console.log(booleaninnumber )
 let string = 33
 let stringnumber= String(string)
-console.log(stringnumber)
-console.log(typeof stringnumber)
-console.log(isloggedin+string)
+//console.log(stringnumber)
+//console.log(typeof stringnumber)
+//console.log(isloggedin+string)
 let str1=4
 let str2=6
  let str3 = str1+str2
-console.log(str3)
-console.log(1+"2")
-console.log(1+2+"5")
+//console.log(str3)
+//console.log(1+"2")
+//console.log(1+2+"5")
 str2++
-console.log(str2)
+//console.log(str2)
+//console.log(2>1)
+//console.log(2<1)
+//console.log(2==1)
+//console.log(2!=1)
+
+//console.log("02">1)
+//console.log("02"==1)
+//console.log("02">=1)
+
+//they auto convert string into number
+//console.log(null <1)
+console.log(null ==1)
+console.log(undefined <= 1)
+console.log(undefined != 1)
+//strict check
+//console.log(2===1)
+
+
+
 
