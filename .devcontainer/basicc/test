@@ -1,6 +1,6 @@
 "use strict" // use for new version js code//
 //alert(5+6)  dont use in node js //
-const accountid= 123445
+const accountid= undefined
 let accountemail = "afnan@gmail.com"
 var accountpassword = "12345"
 let address = "gujranwala"
@@ -18,4 +18,14 @@ symbol = unique
 */
 console.log(3+3);
 console.table([accountid,accountemail,accountpassword,address,state]);
-console.log(typeof undefined);
+let valueinnumber = Number(accountid)
+console.log(typeof valueinnumber);
+console.log(valueinnumber);
+let isloggedin = "1";
+let booleaninnumber = Boolean(isloggedin);
+console.log(booleaninnumber )
+let string = 33
+let stringnumber= String(string)
+console.log(stringnumber)
+console.log(typeof stringnumber)
+
