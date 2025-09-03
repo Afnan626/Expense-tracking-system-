@@ -1,10 +1,21 @@
+"use strict" // use for new version js code//
+//alert(5+6)  dont use in node js //
 const accountid= 123445
 let accountemail = "afnan@gmail.com"
 var accountpassword = "12345"
-address = "gujranwala"
+let address = "gujranwala"
 let state; 
 /*
 dont use var for variable defined
+data types
+string =""
+boolean= true/false
+number= 2
+bigint
+null= standardlone val
+undefined= 
+symbol = unique
 */
-
-console.table([accountid,accountemail,accountpassword,address,state])
+console.log(3+3);
+console.table([accountid,accountemail,accountpassword,address,state]);
+console.log(typeof undefined);
