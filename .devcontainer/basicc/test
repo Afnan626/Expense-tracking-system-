@@ -1,1 +1,10 @@
-console.log("AFNAN")
+const accountid= 123445
+let accountemail = "afnan@gmail.com"
+var accountpassword = "12345"
+address = "gujranwala"
+let state; 
+/*
+dont use var for variable defined
+*/
+
+console.table([accountid,accountemail,accountpassword,address,state])
