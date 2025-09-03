@@ -28,4 +28,13 @@ let string = 33
 let stringnumber= String(string)
 console.log(stringnumber)
 console.log(typeof stringnumber)
+console.log(isloggedin+string)
+let str1=4
+let str2=6
+ let str3 = str1+str2
+console.log(str3)
+console.log(1+"2")
+console.log(1+2+"5")
+str2++
+console.log(str2)
 
