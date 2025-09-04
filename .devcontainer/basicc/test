@@ -1,4 +1,4 @@
-"use strict" // use for new version js code//
+'"use strict" // use for new version js code//
 //alert(5+6)  dont use in node js //
 const accountid= undefined
 let accountemail = "afnan@gmail.com"
@@ -63,7 +63,7 @@ js is dynamic type langauges
 //arrys
 
 let myarry = ["alikhan","abbas","mehmood"];
-console.log(myarry)
+//console.log(myarry)
 
 //objects
 
@@ -76,7 +76,7 @@ let myobj={
  //functions
 
 let myfn = function () {
-  console.log("Hello from myfn");
+  //console.log("Hello from myfn");
 };
 //console.log(myfn)
 //premitive(stack)
@@ -85,8 +85,8 @@ let myfn = function () {
 let myname= "AFNAN KHALIL"
  let secondname= myname
 secondname = "afnan"
-console.log(myname)
-console.log(secondname)
+//console.log(myname)
+//console.log(secondname)
 //heap
 let user = {
     email : "afc$gmail",
@@ -94,5 +94,29 @@ let user = {
 }
 let userone = user
 userone.email="aaaa#gmail"
-console.log(user)
-console.log(userone)
+//console.log(user)
+//console.log(userone)
+ 
+const name= "afnan khalil"
+const report= 90
+//console.log('the name of the person is ${name} and the report number is ${report} the end')
+//console.log(name + report + " values")
+const se = new String('technologia')
+//console.log(se.__proto__)
+//console.log(se.toUpperCase())
+//console.log(se.toLowerCase())
+//console.log(se.charAt(8))
+//console.log(se.indexOf('i'))
+const newstring = se.substring(-4,2)
+//console.log(newstring)
+const nstring = se.slice(-4,2)
+//console.log(nstring)
+const stringone = "    technologia "
+//console.log(string)
+//console.log(stringone)
+//console.log(stringone.trim())
+//console.log(stringone.replace('lo','pp'))
+//console.log(stringone.includes('usman'))
+//console.log(se.split('-'))
+
+
