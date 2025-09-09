@@ -354,7 +354,7 @@ if(true)
 //console.log(website);
 
 
-console.log(Addone(5))
+//console.log(Addone(5))
 function Addone(num){
   return num+1;
 }
@@ -364,4 +364,39 @@ const addtwo= function(num1)
 {
   return num1 + 2
 }
-console.log(addtwo(5))
+//console.log(addtwo(5))
+ 
+const userno={
+  name : "afnan",
+  price : 888,
+  welcomemessage: function()
+  {
+    //console.log(`${this.name}  welcome to the websites`);
+    //console.log(this);
+  }
+  }
+  //userno.welcomemessage()
+  //userno.name = "sam"
+  //userno.welcomemessage()
+  //console.log(this);
+ //function chai()
+ //{
+  //let name ="afnan"
+  //console.log(this);
+ //}
+ //chai()
+
+ const chaii = ()=>{
+  let userr= "afnan"
+  //console.log(this);
+ }
+ chaii()
+
+ const add=(num1,num2)=>
+ {
+    return num1+num2
+ }
+// console.log(add(3,6))
+const add= (num1,num2) =>(num1+num2)
+const add= (num1,num2) => num1+num2
+const add= (num1,num2) => ({name : "afnan"});
