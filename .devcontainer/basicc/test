@@ -236,9 +236,24 @@ const obj2 = {3:"c", 4:"d"}
 const obj3 = Object.assign(obj1,obj2)
 //const obj3= {...obj1,...obj2}//use for spread objects
 //console.log(obj3)
-console.log(Object.keys(tinderuser))
-console.log(Object.values(tinderuser))
-console.log(Object.entries(tinderuser))
+//console.log(Object.keys(tinderuser))
+//console.log(Object.values(tinderuser))
+//console.log(Object.entries(tinderuser))
 //console.log(Object.Length(tinderuser))
-console.log(tinderuser.hasOwnProperty('name'))
-console.log(tinderuser.hasOwnProperty('logged'))
+//console.log(tinderuser.hasOwnProperty('name'))
+//console.log(tinderuser.hasOwnProperty('logged'))
+//....object destructured.........
+const course = {
+  name : "java",
+  price : 9999,
+  instructor : "hitesh paaji"
+}
+//console.log(course.name.price)
+const{instructor:inst}= course
+console.log(inst)
+//.....json object ......
+{
+  "name":"afnan",
+  "course" : "js",
+  "price " : 9000
+}
