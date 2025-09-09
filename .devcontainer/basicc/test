@@ -285,7 +285,7 @@ function logIn(username) {
   return `${username} just logged in`;
 }
 
-console.log(logIn());
+//console.log(logIn());
 
 function logIn(username="sam") {
   if(!username){
@@ -294,5 +294,29 @@ function logIn(username="sam") {
   }
   return `${username} just logged in`;
 }
+//console.log(logIn("afnan"));
 
-console.log(logIn("afnan"));
+function counterprice(val,val1,...num){
+  return num
+}
+console.log(counterprice(100,200,300,4000))
+const userid = {
+  name: "afnan",
+  price: 888
+}
+function handleObject(anyobject) {
+  console.log(`username is ${anyobject.name} and the price is ${anyobject.price}`);
+}
+
+//handleObject(userid);
+handleObject({
+  name :"sam",
+  price : 555
+})
+const arry=[233,555,333]
+function objectarry(arryany)
+{
+  return arryany[1]
+
+}
+console.log(objectarry(arry))
