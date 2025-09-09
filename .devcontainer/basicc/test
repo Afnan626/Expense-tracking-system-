@@ -250,10 +250,49 @@ const course = {
 }
 //console.log(course.name.price)
 const{instructor:inst}= course
-console.log(inst)
+//console.log(inst)
 //.....json object ......
-{
-  "name":"afnan",
-  "course" : "js",
-  "price " : 9000
+//{
+  //"name":"afnan",
+  //"course" : "js",
+  //"price " : 9000
+//}
+
+
+//.....................functions .............
+function myfunction(){
+  //console.log("afnan"); 
 }
+myfunction()
+function addnum(num1,num2){
+  //console.log(num1+num2)
+}
+addnum(9,9)
+
+myfunction()
+function addnum(num1,num2){
+  let result=num1+num2
+ // return result
+  return num1+num2
+}
+const result=addnum(8,8)
+//console.log("result",result)
+function logIn(username) {
+  if(username === undefined){
+    console.log("please enter the username ")
+    return 
+  }
+  return `${username} just logged in`;
+}
+
+console.log(logIn());
+
+function logIn(username="sam") {
+  if(!username){
+    console.log("please enter the username ")
+    return 
+  }
+  return `${username} just logged in`;
+}
+
+console.log(logIn("afnan"));
