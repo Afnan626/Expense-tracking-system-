@@ -204,11 +204,41 @@ const  email= "afnankhalil@miectoff"
 Object.freeze(email)
 myobject.greeting = function()
 {
-  console.log("helo my js code ")
+  //console.log("helo my js code ")
 }
-console.log(myobject.greeting())
+//console.log(myobject.greeting())
 myobject.greetingtwo = function()
 {
-  console.log('helo my js code,' ${this.name});
+  //console.log('helo my js code,' ${this.name});
 }
-console.log(myobject.greetingtwo())
+//console.log(myobject.greetingtwo())
+//..........singleton objects call by ............
+const tinderuser= new Object() ////singleton object
+//const tinderuser = {} //non singleton object
+tinderuser.name="afnan"
+tinderuser.id="abc123"
+tinderuser.age= 19
+//console.log(tinderuser)
+const regularuser= {
+  name : "afnan",
+  user :{
+    firstuser:
+    {
+      firstname : "afnan",
+      secondname : "khalil"
+    }
+  }
+}
+//console.log(regularuser.user.firstuser)
+const obj1 = {1:"a", 2:"b"}
+const obj2 = {3:"c", 4:"d"}
+//const obj3 = (obj1,obj2 )
+const obj3 = Object.assign(obj1,obj2)
+//const obj3= {...obj1,...obj2}//use for spread objects
+//console.log(obj3)
+console.log(Object.keys(tinderuser))
+console.log(Object.values(tinderuser))
+console.log(Object.entries(tinderuser))
+//console.log(Object.Length(tinderuser))
+console.log(tinderuser.hasOwnProperty('name'))
+console.log(tinderuser.hasOwnProperty('logged'))
