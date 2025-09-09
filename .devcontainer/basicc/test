@@ -299,13 +299,13 @@ function logIn(username="sam") {
 function counterprice(val,val1,...num){
   return num
 }
-console.log(counterprice(100,200,300,4000))
+//console.log(counterprice(100,200,300,4000))
 const userid = {
   name: "afnan",
   price: 888
 }
 function handleObject(anyobject) {
-  console.log(`username is ${anyobject.name} and the price is ${anyobject.price}`);
+  //console.log(`username is ${anyobject.name} and the price is ${anyobject.price}`);
 }
 
 //handleObject(userid);
@@ -319,4 +319,49 @@ function objectarry(arryany)
   return arryany[1]
 
 }
-console.log(objectarry(arry))
+//console.log(objectarry(arry))
+//.....global and local scope..........
+const a=200
+let b = 300
+if(true){
+let a=600
+//console.log("inner " ,a)
+}
+//console.log(a)
+
+function one ()
+{
+  const name = "afnan"
+  function two()
+  {
+    const website = "youtube"
+    console.log(name);
+  }
+  //console.log(website);
+  //two()
+}
+//one()
+if(true)
+{
+  const name = "afnan"
+  if(name === "afnan")
+  {
+    const website= "youtube"
+  //console.log(name +  website);
+  }
+//console.log(name);
+}
+//console.log(website);
+
+
+console.log(Addone(5))
+function Addone(num){
+  return num+1;
+}
+//console.log(add(5))
+
+const addtwo= function(num1)
+{
+  return num1 + 2
+}
+console.log(addtwo(5))
