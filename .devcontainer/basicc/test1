@@ -16,4 +16,12 @@
 ((name)=>{
     //console.log("db connected " ,`${name}`)
 })("afnan khalil");
-
+/*
+javascript  excution context 
+{} => global excution context refer to this operator
+   => function excution context
+   => eval excution context
+   two facing for run 
+   =>memory creation face // memory alllocates that we define 
+   =>excution face 
+*/
