@@ -39,51 +39,51 @@ const balance = 2000
 //if(balance >1000) console.log("test passed"),console.log("test not passes");
 if(balance <400)
 {
-    console.log("balance smaller than 400")
+    //console.log("balance smaller than 400")
 }
 else if(balance <600)
 {
-    console.log("balance smaller than 600")
+    //console.log("balance smaller than 600")
 }
 else if(balance <800)
 {
-    console.log("balance smaller than 800")
+    //console.log("balance smaller than 800")
 }
 else if(balance <1000)
 {
-    console.log("balance smaller than 1000")
+    //console.log("balance smaller than 1000")
 }
 else
 {
-    console.log("balance is smaaller than 2000")
+    //console.log("balance is smaaller than 2000")
 }
 const loggedin = true
 const valid = true
 if(loggedin && valid )
 {
-    console.log("trasnaction is proceed")
+    //console.log("trasnaction is proceed")
 }
 else
 {
-    console.log("transaction is not proceed")
+  //  console.log("transaction is not proceed")
 }
 const months = 4
 switch(months)
 {
     case 1:
-        console.log("january");
+     //   console.log("january");
         break;
          case 2:
-        console.log("febuary");
+       // console.log("febuary");
         break;
          case 3:
-        console.log("march");
+        //console.log("march");
         break;
          case 4:
-        console.log("apirl");
+        //console.log("apirl");
         break;
         default:
-            console.log("invalid");
+          //  console.log("invalid");
             break;
 }
 //faalsy value
@@ -94,3 +94,36 @@ let val;
 //val = null ?? 6
 val = undefined ?? 9
 //console.log(val)
+
+//...........for loop..............
+for(let i = 0; i<=10; i++)
+{
+    if(i==5){
+      //  console.log(`${i} is best number`)
+    }
+    //console.log(`${i}`)
+}
+
+for(let i = 0; i<=10; i++)
+{
+    for(j=0;j<= 5; j++)
+    {
+      //  console.log(i+'*'+ j ,'=', i*j)
+    }
+}
+let myarray = ["ali","ahmed","abdul"]
+//console.log(myarray.length)
+for(let l = 0 ; l<myarray.length; l++)
+{
+    const arry=myarray[l];
+    //console.log(arry)
+}
+for(let k = 1 ; k<= 20; k++)
+{
+    if(k==5)
+    {
+        console.log("the value is",`${k}`)
+        continue;
+    }
+    console.log(`${k}`)
+}
