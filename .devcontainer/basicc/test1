@@ -177,10 +177,32 @@ const myObject ={
 }
 for (const key in myObject)
 {
-  console.log(`${key} and the ${myObject[key]}`)
+  //console.log(`${key} and the ${myObject[key]}`)
 }
-myObject.forEach(function(item){
-    console.log(item)
+const array = ["ahmed","ali","butt"]
+array.forEach(function(item){
+  //  console.log(item)
 })
-console.log("ali khan")
-    
+array.forEach((item)=>{
+//console.log(item)})
+  function printMe(item)
+  {
+    console.log(item);
+  }  
+  array.forEach(printMe)
+  const coding =
+  [
+    {
+        langaugesname: "java",
+        price : 8888,
+    },
+    {
+        langaugesname: "js",
+        price : 2222,
+    },
+    {
+        langaugesname: "pythin",
+        price : 5555,}]
+coding.forEach( (items)=> {
+    console.log(items.languagesname)
+})
