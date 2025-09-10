@@ -177,6 +177,10 @@ const myObject ={
 }
 for (const key in myObject)
 {
-    console.log(`${key} and the ${myObject[key]}`)
+  console.log(`${key} and the ${myObject[key]}`)
 }
+myObject.forEach(function(item){
+    console.log(item)
+})
+console.log("ali khan")
     
