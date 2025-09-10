@@ -397,6 +397,6 @@ const userno={
     return num1+num2
  }
 // console.log(add(3,6))
-const add= (num1,num2) =>(num1+num2)
-const add= (num1,num2) => num1+num2
-const add= (num1,num2) => ({name : "afnan"});
+//const add= (num1,num2) =>(num1+num2)
+//const add= (num1,num2) => num1+num2
+//const add= (num1,num2) => ({name : "afnan"});

@@ -1,0 +1,19 @@
+//immedaitely invoked function expression IIFE
+(function chai()
+{
+    ////named iife
+    //console.log("db connected")
+}());
+(function chaiaurcode()
+{
+    //console.log("db connected chai ")
+})();
+//...arrow fn in iife.....
+(()=>{
+    //unnamed iife
+    //console.log("arrow fn")
+})();
+((name)=>{
+    //console.log("db connected " ,`${name}`)
+})("afnan khalil");
+
