@@ -122,8 +122,61 @@ for(let k = 1 ; k<= 20; k++)
 {
     if(k==5)
     {
-        console.log("the value is",`${k}`)
+     //   console.log("the value is",`${k}`)
         continue;
     }
-    console.log(`${k}`)
+   // console.log(`${k}`)
 }
+//...........do while or while...........
+let con = 0;
+while(con <= 10)
+{
+   // console.log(`${con}`)
+    con = con + 2;
+}
+let arry = ["ali","ahmed","abdul"]
+let cont = 0
+while(cont<=arry.length)
+{
+    //console.log(`${cont}`)
+    cont=cont+1;
+}
+let score = 1;
+do{
+    //console.log(`${score}`)
+    score++;
+}while(score<10)
+
+    //..... for of loop ...............
+    const arr= [1,2,3,4,5]
+    for(const num of arr)
+    {
+    // console.log(num)
+    }
+    const greetings="hello word"
+    for(const greet of greetings)
+    {
+        // console.log(greet)
+        if(greet == " ")
+        break;
+    }
+    const map = new Map ()
+    map.set('pk','pakistan')
+     map.set('uae','dubai')
+      map.set('pk','pakistan')
+      //console.log(map)
+for(const [key,values] of map)
+{
+    //console.log(key,values)
+}
+const myObject ={
+    game1: 'nfs',
+     game2 : 'pubg',
+     game3: 'racer',
+     game4 : 'bike',
+}
+for (const key in myObject)
+{
+    console.log(`${key} and the ${myObject[key]}`)
+}
+    
