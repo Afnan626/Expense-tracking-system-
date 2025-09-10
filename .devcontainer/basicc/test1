@@ -25,3 +25,72 @@ javascript  excution context
    =>memory creation face // memory alllocates that we define 
    =>excution face 
 */
+const variable = 30
+if(variable == 20)
+{
+  //  console.log("variable found ")
+}
+else
+{
+    //console.log("not found")
+}
+//console.log("varaible may or may not be found")
+const balance = 2000
+//if(balance >1000) console.log("test passed"),console.log("test not passes");
+if(balance <400)
+{
+    console.log("balance smaller than 400")
+}
+else if(balance <600)
+{
+    console.log("balance smaller than 600")
+}
+else if(balance <800)
+{
+    console.log("balance smaller than 800")
+}
+else if(balance <1000)
+{
+    console.log("balance smaller than 1000")
+}
+else
+{
+    console.log("balance is smaaller than 2000")
+}
+const loggedin = true
+const valid = true
+if(loggedin && valid )
+{
+    console.log("trasnaction is proceed")
+}
+else
+{
+    console.log("transaction is not proceed")
+}
+const months = 4
+switch(months)
+{
+    case 1:
+        console.log("january");
+        break;
+         case 2:
+        console.log("febuary");
+        break;
+         case 3:
+        console.log("march");
+        break;
+         case 4:
+        console.log("apirl");
+        break;
+        default:
+            console.log("invalid");
+            break;
+}
+//faalsy value
+//fasle,0,-0,null,undefined,"",nan,bijint on
+//nullish coalescing operator ?? null ,undefined
+let val;
+//val = 4 ?? 5
+//val = null ?? 6
+val = undefined ?? 9
+//console.log(val)
