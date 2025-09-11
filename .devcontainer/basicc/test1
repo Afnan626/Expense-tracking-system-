@@ -183,9 +183,9 @@ const array = ["ahmed","ali","butt"]
 array.forEach(function(item){
   //  console.log(item)
 })
-array.forEach((item)=>{
-//console.log(item)})
-  function printMe(item)
+//array.forEach((item)=>
+//console.log(item))
+  /*function printMe(item)
   {
     console.log(item);
   }  
@@ -202,7 +202,9 @@ array.forEach((item)=>{
     },
     {
         langaugesname: "pythin",
-        price : 5555,}]
+        price : 5555,
+    }]
 coding.forEach( (items)=> {
-    console.log(items.languagesname)
+  //  console.log(items.languagesname);
 })
+*/
