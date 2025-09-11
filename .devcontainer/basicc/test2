@@ -25,7 +25,8 @@ const myval = num.reduce(function(acc,curval){
     console.log(`acc : ${acc} and the curval : ${curval}`);
     return acc+curval;
 },2)
-console.log(myval)
+///console.log(myval)
 
 const myvall=num.reduce((acc,curval)=> acc+curval ,0)
-console.log(myvall)
+//console.log(myvall)
+////
