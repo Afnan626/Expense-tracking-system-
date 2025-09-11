@@ -1,0 +1,31 @@
+const coding = ["js","python","c++","c sharp"]
+const values=coding.forEach( (item) => {
+   // console.log(item)
+})
+//console.log(values)
+//for each dont return values
+let num=[1,2,3,4,5,6,7,8,9,10]
+//const newnum=num.filter( (number)=> number>4)
+//console.log(newnum)
+const mynum=[]
+num.forEach( (num) => {
+    if(num>4){
+        mynum.push(num);
+    }
+})
+//console.log(mynum)
+//const numb=num.map( (numm)=> numm+500)
+//console.log(numb)
+const numb = num
+            .map( (numm)=> numm*10)
+            .map( (numm)=> numm+2)
+            .filter( (numm) => numm >= 40)
+//console.log(numb);
+const myval = num.reduce(function(acc,curval){
+    console.log(`acc : ${acc} and the curval : ${curval}`);
+    return acc+curval;
+},2)
+console.log(myval)
+
+const myvall=num.reduce((acc,curval)=> acc+curval ,0)
+console.log(myvall)
